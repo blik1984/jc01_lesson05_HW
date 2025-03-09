@@ -14,11 +14,11 @@ public class Cycl01 {
 			num = (int) (10.0 * Math.random());
 		}
 		if (num == 1) {
-			for (int i = 1; i < 5; i++) {
+			for (int i = 1; i < 6; i++) {
 				System.out.print(i);
 			}
 		} else if (num == 2) {
-			int[] nums = { 1, 2, 3, 4 };
+			int[] nums = { 1, 2, 3, 4, 5};
 			for (int nm : nums) {
 				System.out.print(nm);
 			}
@@ -27,7 +27,7 @@ public class Cycl01 {
 			do {
 				System.out.print(x);
 				x++;
-			} while (x < 5);
+			} while (x < 6);
 		} else if (num == 4) {
 			int x = 1;
 			while (x < 5) {
