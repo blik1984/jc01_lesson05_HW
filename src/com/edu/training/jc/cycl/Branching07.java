@@ -23,7 +23,7 @@ public class Branching07 {
 		if (x == 0) { // в задачах на ветвления используем их максимально
 			ans = c;
 		} else {
-			ans = Math.abs(a * x * x + b * x + c);
+			ans = a * x * x + b * x + c;
 		}
 
 		if (ans < 0) {
