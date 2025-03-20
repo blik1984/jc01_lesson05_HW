@@ -10,17 +10,7 @@ public class Cycl15 {
 		int pow = 10;
 		int sum = 0;
 		for (int i = 0; i<=pow; i++) {
-			int sum2 = 1;
-			if(i == 0) {
-				sum2 = 1;
-			} else if(i ==1) {
-				sum2 = n;
-			}else {
-				for(int k = 0; k<i; k++) {		//астрологи объявили неделю циклов
-					sum2 = sum2 * n;
-				}
-			}
-			sum = sum + sum2;
+			sum = (int) (sum + Math.pow(n, i));
 		}
 		System.out.println(sum);
 	}
