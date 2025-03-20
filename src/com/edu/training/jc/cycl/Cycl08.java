@@ -4,7 +4,7 @@ package com.edu.training.jc.cycl;
  * Вычислить значения функции на отрезке [а,b] c шагом h
  */
 
-public class cycl08 {
+public class Cycl08 {
 
 	public static void main(String[] args) {
 
