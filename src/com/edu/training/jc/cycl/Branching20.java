@@ -12,7 +12,6 @@ public class Branching20 {
 		int b;
 		int c;
 		int k;
-		int prom;
 
 		a = -9;
 		b = 5;
@@ -23,16 +22,13 @@ public class Branching20 {
 			System.out.println("На ноль делить нельзя.");
 			return;
 		}
-		prom = a / k * k;
-		if (a == prom) {
+		if (a%k == 0) {
 			System.out.println("Число " + a + " делится на число " + k + " без остатка");
 		}
-		prom = b / k * k;
-		if (b == prom) {
+		if (b%k == 0) {
 			System.out.println("Число " + b + " делится на число " + k + " без остатка");
 		}
-		prom = c / k * k;
-		if (c == prom) {
+		if (c%k == 0) {
 			System.out.println("Число " + c + " делится на число " + k + " без остатка");
 		}
 	}
